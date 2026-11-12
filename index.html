@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#1d5fd1"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/icon-192.png"><title>Enrollment Strength Statement</title>
+<style>
+:root{--bg:#f4f6fa;--gl:#111;--card:#fff;--tx:#1a1f2b;--mu:#5b6578;--bd:#c9d0dc;--ac:#1d5fd1;--hd:#e8edf6;--tot:#dbe6fb;--gt:#f6d9a8;
+--c0:#e5d4f5;--c1:#cdeee2;--c2:#d9d4f5;--c3:#f6e2c4;--c4:#f6d3c4;--sub:#cfe6fa;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#14171d;--card:#1d222b;--tx:#e8ecf3;--mu:#97a1b4;--bd:#3a4252;--ac:#6ea1ff;--hd:#262d3a;--tot:#26385c;--gt:#5a4720;
+--c0:#40305a;--c1:#1f4a3d;--c2:#35305a;--c3:#5a4426;--c4:#5a3426;--sub:#1f4560}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#14171d;--card:#1d222b;--tx:#e8ecf3;--mu:#97a1b4;--bd:#3a4252;--ac:#6ea1ff;--hd:#262d3a;--tot:#26385c;--gt:#5a4720;--c0:#40305a;--c1:#1f4a3d;--c2:#35305a;--c3:#5a4426;--c4:#5a3426;--sub:#1f4560}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--gl:#e8ecf3}}:root[data-theme="dark"]{--gl:#e8ecf3}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:14px}
+h1{font-size:18px;margin:0 0 2px}.mu{color:var(--mu);font-size:12px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px;margin-bottom:12px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:end}
+label,.fl{display:flex;flex-direction:column;font-size:12px;color:var(--mu);gap:3px}
+.chips button{padding:4px 10px;border-radius:16px;font-weight:500}
+select,input[type=text]{background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:6px;padding:6px 8px;font:inherit;min-width:120px}
+button{background:var(--ac);color:#fff;border:0;border-radius:6px;padding:8px 14px;font:inherit;font-weight:600;cursor:pointer}
+button.s{background:transparent;color:var(--tx);border:1px solid var(--bd);font-weight:500}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{display:flex;flex-direction:row;align-items:center;gap:5px;border:1px solid var(--bd);border-radius:16px;padding:4px 10px;color:var(--tx);cursor:pointer}
+.chip input{margin:0}
+.wrap{overflow-x:auto}
+h2{font-size:14px;text-align:center;margin:4px 0 10px}
+table{border-collapse:collapse;margin:0 auto;min-width:100%;text-align:center;border:3px solid var(--gl)}
+th,td{border:2px solid var(--gl);padding:5px 8px;white-space:nowrap;font-weight:700;font-size:15px}
+th{background:var(--hd);font-size:13px}
+td.l{text-align:left;font-weight:600;background:var(--hd)}
+.c0{background:var(--c0)}.c1{background:var(--c1)}.c2{background:var(--c2)}.c3{background:var(--c3)}.c4{background:var(--c4)}.sub{background:var(--sub)}
+tr.t td{background:var(--tot);font-weight:700}tr.g td{background:var(--gt);font-weight:700}
+td.k{font-weight:700}
+td input{width:54px;text-align:center;border:1px solid transparent;background:transparent;color:inherit;font:inherit;padding:2px;border-radius:4px}
+td input:hover,td input:focus{border-color:var(--ac);background:var(--card);outline:0}
+td input::-webkit-inner-spin-button{display:none}
+#msg{font-size:12px;color:var(--mu);min-height:16px;margin-top:6px}
+:root{--h0:#6b2fa0;--h1:#0f9d7a;--h2:#4b3bd1;--h3:#e07b00;--h4:#d6513a;--hs:#1976d2;--hg:#c98200;--hc:#2f3a8f}
+body{background:linear-gradient(160deg,#e3edff 0%,#f6e9ff 45%,#e2fbf0 100%);background-attachment:fixed}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) body{background:linear-gradient(160deg,#10162a,#1d1233 50%,#0d2a26)}}
+:root[data-theme="dark"] body{background:linear-gradient(160deg,#10162a,#1d1233 50%,#0d2a26)}
+.card{border-radius:14px;box-shadow:0 4px 14px rgba(40,60,120,.14)}
+body>.card:first-child{background:linear-gradient(120deg,#1d5fd1,#7b3fe4 55%,#e0457b);color:#fff;border:0}
+body>.card:first-child .mu,body>.card:first-child label{color:#ffffffdd}
+body>.card:first-child input{background:#fff;color:#111}
+h1{font-size:23px}
+.card:nth-child(2){border-top:5px solid #7b3fe4}.card:nth-child(3){border-top:5px solid #0f9d7a}.card:nth-child(4){border-top:5px solid #1d5fd1}.card:nth-child(5){border-top:5px solid #e07b00}
+button{background:linear-gradient(135deg,#1d5fd1,#7b3fe4);box-shadow:0 2px 6px rgba(60,60,160,.3)}
+#xl{background:linear-gradient(135deg,#0f9d7a,#2bc48a)}#pdf{background:linear-gradient(135deg,#e0457b,#f2832b)}
+button.s{box-shadow:none}button.s:hover{background:var(--hd)}
+.chip:has(input:checked){background:var(--ac);color:#fff;border-color:var(--ac)}
+#fcat .chip:nth-child(1):has(input:checked){background:var(--h0);border-color:var(--h0)}#fcat .chip:nth-child(2):has(input:checked){background:var(--h1);border-color:var(--h1)}#fcat .chip:nth-child(3):has(input:checked){background:var(--h2);border-color:var(--h2)}#fcat .chip:nth-child(4):has(input:checked){background:var(--h3);border-color:var(--h3)}#fcat .chip:nth-child(5):has(input:checked){background:var(--h4);border-color:var(--h4)}
+h2{background:linear-gradient(90deg,#1d5fd1,#7b3fe4,#e0457b);color:#fff;padding:9px;border-radius:8px;letter-spacing:.4px}
+.card:nth-child(5) h2{background:linear-gradient(90deg,#e07b00,#d6513a,#c2185b)}
+th{background:var(--hc);color:#fff}
+th.c0{background:var(--h0)}th.c1{background:var(--h1)}th.c2{background:var(--h2)}th.c3{background:var(--h3)}th.c4{background:var(--h4)}th.sub{background:var(--hs)}th.gt{background:var(--hg)}
+td.l{background:rgba(255,196,60,.3)}
+tr.t td{background:linear-gradient(90deg,rgba(0,170,140,.38),rgba(70,120,235,.38))}
+tr.g td{background:linear-gradient(90deg,#ffd35c,#ff9f43);color:#1a1a1a;font-size:16px}
+table{box-shadow:0 2px 10px rgba(0,0,0,.15)}
+</style></head><body>
+<div class="card">
+<h1>🏫 Enrollment Strength Statement</h1>
+<div class="mu">Click any class-wise number to edit. Totals and the abstract update automatically.</div>
+<div class="row" style="margin-top:10px">
+<label>School<input type="text" id="school" style="min-width:200px"></label>
+<label>Session<input type="text" id="year" style="min-width:90px"></label>
+<label>As on<input type="text" id="ason" style="min-width:100px"></label>
+</div></div>
+
+<div class="card"><div class="row">
+<div class="fl">Quick select section<div class="chips" id="fsec"></div></div>
+<div class="fl">Classes (tick one or more)<div class="chips" id="fcls"></div></div>
+<label>Gender<select id="fgen"><option value="all">Boys + Girls</option><option value="0">Boys only</option><option value="1">Girls only</option></select></label>
+<div class="fl">Category<div class="chips" id="fcat"></div></div>
+<button class="s" id="rst">Show all</button>
+</div></div>
+
+<div class="card"><div class="row">
+<button id="xl">Download Excel</button><button id="pdf">Download PDF</button>
+<button class="s" id="inst">Install App</button><button class="s" id="zero">Clear all numbers</button><button class="s" id="smp">Load sample data</button>
+</div><div id="msg"></div></div>
+
+<div class="card"><h2 id="ttl"></h2><div class="wrap" id="main"></div></div>
+<div class="card"><h2>ABSTRACT FORMAT</h2><div class="wrap" id="abs"></div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+<script>
+var CATS=[["SC","SC"],["ST","ST"],["OBC","OBC"],["MIN","MINORITIES"],["OC","OC"]];
+var CL=[["Sishubatika",0],["1st",1],["2nd",1],["3rd",1],["4th",1],["5th",1],["6th",2],["7th",2],["8th",2],["9th",3],["10th",3]];
+var SEC=["Sishubatika","Primary","Upper Primary","Secondary"];
+var SAMPLE=[[4,1,4,5,6,3,0,0,0,0],[1,0,6,3,5,6,0,0,0,0],[0,1,5,6,3,8,0,1,0,0],[1,1,2,0,3,5,1,0,0,0],[3,1,2,6,8,6,1,0,0,0],[2,1,3,5,8,7,0,0,0,0],[3,3,4,3,8,8,1,0,0,0],[2,3,6,3,6,8,1,0,0,0],[2,4,5,4,7,9,1,0,0,0],[1,3,4,5,14,10,0,0,0,0],[3,5,5,9,9,16,0,0,0,0]];
+var S={school:"GOVT.UGHS MALDA",year:"2026-2027",ason:"27.09.2026",data:JSON.parse(JSON.stringify(SAMPLE)),cl:[1,1,1,1,1,1,1,1,1,1,1],gen:"all",cats:[1,1,1,1,1]};
+try{var sv=localStorage.getItem("enrol_v1");if(sv){var p=JSON.parse(sv);if(p&&p.data&&p.data.length==11){S=p;if(!S.cl)S.cl=[1,1,1,1,1,1,1,1,1,1,1]}}}catch(e){}
+function save(){try{localStorage.setItem("enrol_v1",JSON.stringify(S))}catch(e){}}
+var $=function(i){return document.getElementById(i)};
+function msg(t){$("msg").textContent=t}
+function add(a,b){return a.map(function(x,i){return x+b[i]})}
+function z(){return [0,0,0,0,0,0,0,0,0,0]}
+
+function spec(){var vc=[],vg=S.gen=="all"?[0,1]:[+S.gen];S.cats.forEach(function(v,i){if(v)vc.push(i)});return{vc:vc,vg:vg}}
+function cells(v,sp){var o=[];sp.vc.forEach(function(c){sp.vg.forEach(function(g){o.push(v[c*2+g])})});
+ var t=0;sp.vg.forEach(function(g){var s=0;sp.vc.forEach(function(c){s+=v[c*2+g]});t+=s;o.push(s)});o.push(t);return o}
+function head(sp){var G=sp.vg.length,GL=["BOYS","GIRLS"];
+ var h1=[{t:"CLASS",rs:2}],h2=[];
+ sp.vc.forEach(function(c){h1.push({t:CATS[c][1],cs:G,k:"c"+c});sp.vg.forEach(function(g){h2.push({t:GL[g],k:"c"+c})})});
+ h1.push({t:"SUB TOTAL",cs:G,k:"sub"});sp.vg.forEach(function(g){h2.push({t:GL[g],k:"sub"})});
+ h1.push({t:"GRAND TOTAL",rs:2,k:"gt"});return[h1,h2]}
+
+function model(){var sp=spec(),rows=[],st={},all=z(),any={};
+ for(var s=0;s<4;s++){var tot=z(),n=0;
+  CL.forEach(function(c,i){if(c[1]!=s||!S.cl[i])return;n++;tot=add(tot,S.data[i]);rows.push({l:c[0],v:S.data[i],i:i,ty:"c"})});
+  if(!n)continue;st[s]=tot;all=add(all,tot);rows.push({l:s==0?"TOTAL":SEC[s].toUpperCase()+" TOTAL",v:tot,ty:"t"});
+  if(s==2&&st[0]&&st[1]){var u=add(add(st[0],st[1]),st[2]);rows.push({l:"SB+PS+UP TOTAL",v:u,ty:"t"})}}
+ rows.push({l:"G.TOTAL",v:all,ty:"g"});
+ var ab=[];[0,1,2].forEach(function(s){if(st[s])ab.push({l:SEC[s],v:st[s],ty:"c"})});
+ if(st[0]&&st[1]&&st[2])ab.push({l:"TOTAL",v:add(add(st[0],st[1]),st[2]),ty:"t"});
+ if(st[3])ab.push({l:"SECONDARY",v:st[3],ty:"c"});ab.push({l:"GRAND TOTAL",v:all,ty:"g"});
+ return{sp:sp,rows:rows,ab:ab}}
+
+function thHtml(h){return h.map(function(r){return"<tr>"+r.map(function(c){return"<th class=\""+(c.k||"")+"\""+(c.cs?" colspan="+c.cs:"")+(c.rs?" rowspan="+c.rs:"")+">"+c.t+"</th>"}).join("")+"</tr>"}).join("")}
+function tbl(rows,sp,edit){var nc=sp.vc.length*sp.vg.length,G=sp.vg.length,h=thHtml(head(sp)),b="";
+ rows.forEach(function(r){var cs=cells(r.v,sp);b+="<tr class=\""+r.ty+"\"><td class=\"l\">"+r.l+"</td>";
+  cs.forEach(function(x,j){var k="",cl="k";
+   if(j<nc){var c=sp.vc[Math.floor(j/G)],g=sp.vg[j%G];k=c*2+g;cl="c"+c}else cl=j<cs.length-1?"sub k":"k";
+   if(edit&&r.ty=="c"&&j<nc)b+="<td class=\""+cl+"\"><input type=number min=0 data-i=\""+r.i+"\" data-k=\""+k+"\" value=\""+x+"\"></td>";
+   else b+="<td class=\""+(r.ty=="c"?cl:"")+"\">"+x+"</td>"});b+="</tr>"});
+ return"<table>"+h+b+"</table>"}
+function render(){var m=model();
+ $("ttl").textContent="ENROLLMENT STRENGTH OF "+S.school.toUpperCase()+" FOR "+S.year+" (as on "+S.ason+")";
+ $("main").innerHTML=tbl(m.rows,m.sp,true);$("abs").innerHTML=tbl(m.ab,m.sp,false)}
+
+function init(){$("school").value=S.school;$("year").value=S.year;$("ason").value=S.ason;
+ $("fsec").innerHTML=["All"].concat(SEC).map(function(s,i){return"<button class=s data-s="+(i-1)+">"+s+"</button>"}).join("");drawCl();
+ $("fcat").innerHTML=CATS.map(function(c,i){return"<label class=chip><input type=checkbox data-c="+i+(S.cats[i]?" checked":"")+">"+c[1]+"</label>"}).join("");
+ $("fgen").value=S.gen}
+function drawCl(){$("fcls").innerHTML=CL.map(function(c,i){return"<label class=chip><input type=checkbox data-i="+i+(S.cl[i]?" checked":"")+">"+c[0]+"</label>"}).join("")}
+init();render();
+
+["school","year","ason"].forEach(function(id){$(id).addEventListener("input",function(){S[id]=this.value;save();render()})});
+$("fsec").onclick=function(e){var s=e.target.getAttribute("data-s");if(s===null)return;s=+s;S.cl=CL.map(function(c){return s<0||c[1]==s?1:0});drawCl();save();render()};
+$("fcls").onchange=function(e){var i=e.target.getAttribute("data-i");if(i===null)return;S.cl[i]=e.target.checked?1:0;if(!S.cl.some(function(x){return x})){S.cl[i]=1;e.target.checked=true}save();render()};
+$("fgen").onchange=function(){S.gen=this.value;save();render()};
+$("fcat").onchange=function(e){var c=e.target.getAttribute("data-c");if(c===null)return;S.cats[c]=e.target.checked?1:0;
+ if(!S.cats.some(function(x){return x})){S.cats[c]=1;e.target.checked=true}save();render()};
+$("rst").onclick=function(){S.cl=CL.map(function(){return 1});S.gen="all";S.cats=[1,1,1,1,1];init();save();render()};
+$("main").addEventListener("change",function(e){var t=e.target;if(t.tagName!="INPUT")return;var v=Math.max(0,Math.floor(+t.value||0));
+ S.data[t.getAttribute("data-i")][t.getAttribute("data-k")]=v;save();render()});
+$("zero").onclick=function(){if(confirm("Set every number to 0?")){S.data=CL.map(z);save();render()}};
+$("smp").onclick=function(){if(confirm("Replace all numbers with the sample data?")){S.data=JSON.parse(JSON.stringify(SAMPLE));save();render()}};
+
+function dl(name,data){var u=URL.createObjectURL(data),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},4000);msg("Saved "+name)}
+async function out(name,data){try{var d=window.claude&&await claude.use("downloads");if(!d){dl(name,data);return}
+ await d.save({filename:name,data:data});msg("Saved "+name)}catch(e){msg(e&&e.code=="declined"?"Download cancelled.":"Could not save: "+(e&&e.message||e))}}
+function plainTable(rows,sp){var h=head(sp),r1=[],r2=[],mg=[],c=0;
+ h[0].forEach(function(x){r1.push(x.t);var span=x.cs||1;for(var i=1;i<span;i++)r1.push("");
+  if(span>1)mg.push({s:{r:0,c:c},e:{r:0,c:c+span-1}});if(x.rs)mg.push({s:{r:0,c:c},e:{r:1,c:c}});
+  if(x.rs)r2.push("");else for(var j=0;j<span;j++)r2.push(["BOYS","GIRLS"][sp.vg[j]]);c+=span});
+ return{aoa:[r1,r2].concat(rows.map(function(r){return[r.l].concat(cells(r.v,sp))})),mg:mg}}
+$("xl").onclick=function(){if(!window.XLSX){msg("Excel library did not load.");return}var m=model(),a=plainTable(m.rows,m.sp),b=plainTable(m.ab,m.sp);
+ var title="ENROLLMENT STRENGTH OF "+S.school.toUpperCase()+" FOR "+S.year+" (as on "+S.ason+")";
+ function sheet(t,p){var w=XLSX.utils.aoa_to_sheet([[t],[]].concat(p.aoa));
+  w["!merges"]=[{s:{r:0,c:0},e:{r:0,c:p.aoa[0].length-1}}].concat(p.mg.map(function(x){return{s:{r:x.s.r+2,c:x.s.c},e:{r:x.e.r+2,c:x.e.c}}}));
+  w["!cols"]=[{wch:20}].concat(p.aoa[0].slice(1).map(function(){return{wch:9}}));return w}
+ var wb=XLSX.utils.book_new();XLSX.utils.book_append_sheet(wb,sheet(title,a),"Enrollment");XLSX.utils.book_append_sheet(wb,sheet("ABSTRACT FORMAT - "+S.school.toUpperCase(),b),"Abstract");
+ out("Enrollment_"+S.year+".xlsx",new Blob([XLSX.write(wb,{type:"array",bookType:"xlsx"})]))};
+$("pdf").onclick=function(){if(!window.jspdf){msg("PDF library did not load.");return}var m=model(),J=window.jspdf.jsPDF,d=new J({orientation:"landscape",unit:"pt",format:"a4"});
+ function hd(sp){var h=head(sp);return[h[0].map(function(x){return{content:x.t,colSpan:x.cs||1,rowSpan:x.rs||1}}),h[1].map(function(x){return x.t})]}
+ function put(rows,sp,y,t){d.setFontSize(11);d.setFont("helvetica","bold");d.text(t,d.internal.pageSize.getWidth()/2,y,{align:"center"});
+  d.autoTable({startY:y+8,head:hd(sp),body:rows.map(function(r){return[r.l].concat(cells(r.v,sp))}),theme:"grid",styles:{fontSize:9,fontStyle:"bold",halign:"center",cellPadding:3,lineColor:[0,0,0],lineWidth:1,textColor:0},
+  headStyles:{fillColor:[220,228,245],textColor:20},columnStyles:{0:{halign:"left",fontStyle:"bold"}},
+  didParseCell:function(q){if(q.section=="body"){var r=rows[q.row.index];if(r.ty=="t"){q.cell.styles.fillColor=[219,230,251];q.cell.styles.fontStyle="bold"}if(r.ty=="g"){q.cell.styles.fillColor=[246,217,168];q.cell.styles.fontStyle="bold"}}}});
+  return d.lastAutoTable.finalY}
+ var y=put(m.rows,m.sp,32,"ENROLLMENT STRENGTH OF "+S.school.toUpperCase()+" FOR "+S.year+" (as on "+S.ason+")");
+ if(y>380){d.addPage();y=-10}put(m.ab,m.sp,y+26,"ABSTRACT FORMAT");
+ out("Enrollment_"+S.year+".pdf",d.output("blob"))};
+
+var dp=null,sa=matchMedia("(display-mode: standalone)").matches||navigator.standalone;
+if(sa)$("inst").style.display="none";
+window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();dp=e});
+window.addEventListener("appinstalled",function(){$("inst").style.display="none";msg("App installed.")});
+var secure=location.protocol=="https:"||location.hostname=="localhost"||location.hostname=="127.0.0.1";
+if(!secure&&!sa)msg("Install will not work from here"+(location.protocol=="file:"?" because the file was opened directly from a folder or zip":"")+". Open this app from an https link (Netlify Drop, Cloudflare Pages, GitHub Pages) or on Windows run Run-on-Windows.bat. See README.txt.");
+$("inst").onclick=async function(){if(!secure){msg("Install needs https or localhost. Host the folder (see README.txt) or on Windows run Run-on-Windows.bat, then press Install App again.");return}if(dp){dp.prompt();await dp.userChoice;dp=null}else msg("To install: Android Chrome menu (three dots) > Install app / Add to Home screen. Windows Chrome or Edge: click the install icon in the address bar, or menu > Apps > Install this site as an app.")};
+if("serviceWorker" in navigator&&location.protocol.indexOf("http")==0)navigator.serviceWorker.register("sw.js").catch(function(){});
+</script></body></html>
